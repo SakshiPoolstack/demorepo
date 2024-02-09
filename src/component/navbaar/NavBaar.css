@@ -1,0 +1,39 @@
+.navBaar {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(228, 205, 245) 0%,
+    rgba(185, 28, 129, 0.165703781512605) 7%,
+    rgba(122, 24, 208, 0.7651435574229692) 100%
+  );
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.navBaar li {
+  display: flex;
+  justify-content: left;
+}
+
+.navBaar a {
+  background-color: white;
+  border-radius: 8px;
+  margin: 10px;
+  color: black;
+}
+
+.navBaar ul {
+  margin: 10px;
+}
+
+.logout-button {
+  background-color: white;
+  color: black;
+  /* border: 1px solid #eee; */
+  border: none;
+  border-radius: 5px;
+  text-shadow: none;
+  height: 40px;
+   /* width: 20%; */
+ margin: 10px;
+}
